@@ -1,0 +1,8 @@
+{
+  "navigationBarTitleText": "文章",
+  "usingComponents": {
+        "jdzy": "/conmom/index.wsx"
+    }
+}
+
+

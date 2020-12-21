@@ -1,0 +1,16 @@
+<view class="file" wx:for="{{desc}}" wx:key="key">
+<view class="left">
+  <image src="{{item.img}}"/>
+</view>
+<view class="right">
+  <view class="shang">{{item.name}}</view>
+  <view class="zhong">{{item.desc}}</view>
+  <view class="xia">
+      <view class="ylrs">2000浏览</view>
+      <view class="number">{{item.number}}收藏</view>
+      <view class="shoucang" bind:tap="shoucang">收藏</view>
+  </view>
+</view>
+</view>
+<!-- wx:for="{{desc}}" wx:key="key" -->
+<!-- <block wx:for="{{desc}}" wx:key="key">{{item.id}}</block> -->
